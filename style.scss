@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+$primary: #aeaeef;
+$white: #ffff;
+$formFontSize: 1.5rem;
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    padding: 2em;
+    background-color: $white;
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        font-size: $formFontSize;
+    }
+}

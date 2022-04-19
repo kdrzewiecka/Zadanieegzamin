@@ -1,1 +1,25 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #aeaeef;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  padding: 2em;
+  background-color: white;
+}
+form .form-label {
+  font-weight: bold;
+}
+form .form-control {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
